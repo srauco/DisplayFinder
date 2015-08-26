@@ -1,0 +1,33 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>MCL Display Finder</title>
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+  <script src="javascript/jquery-1.10.2.min.js"></script>
+  <script src="javascript/jquery.mobile-1.4.5.js"></script>
+</head>
+
+<body style="background-color:#CCC">
+<div data-role="page" id="pageone" style="background-color:#CCC">
+  <div data-role="panel" class="myPanel" data-display="overlay" style="width:80%"> 
+  	
+    <h2>Panel Header..</h2>
+    <p>Some text in the panel..</p>
+  </div> 
+
+  <div data-role="header" style="background-color:#FF4632">
+    <a href="javascript:$('.myPanel:visible').panel('open');" class="ui-btn ui-btn-inline" style="margin-top:4%; margin-left:3%">Menu</a>
+    <p style="text-align:right; padding-right: 5%; color:white;">
+    	<img src="images/corner.png"/>
+    </p>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Click on the button below to open the Panel.</p>
+    
+  </div>
+
+</div>
+</body>
+ 
+</html>
