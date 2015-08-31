@@ -3295,7 +3295,7 @@ th.ui-table-priority-6, td.ui-table-priority-6, th.ui-table-priority-5, td.ui-ta
 	z-index: 1001;
 }
 .ui-panel-inner {
-	padding: 1em;
+	bpadding: 1em;
 }
 .ui-panel-page-container {
 	overflow-x: visible;
