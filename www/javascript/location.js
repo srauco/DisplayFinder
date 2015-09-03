@@ -15,8 +15,9 @@ function onSuccess(position) {
 						'Speed: '              + position.coords.speed                 + '<br />' +
 						'Timestamp: '          + position.timestamp          + '<br />');
 	*/
-	var latitude =position.coords.latitude;
-	var longitude =position.coords.longitude;
+	var latitude = position.coords.latitude;
+	var longitude = position.coords.longitude;
+	var latlng = new google.maps.LatLng(latitude, longitude);
 	var mapOptions = {
 	  center: new google.maps.LatLng(latitude, longitude),
 	  zoom: 15,
